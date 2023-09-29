@@ -5510,9 +5510,9 @@ stack-utils@^2.0.3:
   dependencies:
     escape-string-regexp "^2.0.0"
 
-"starry-digitizer@git+https://github.com/t29mato/starry-digitizer.git#vue3/add_library_build":
+"starry-digitizer@git+https://github.com/t29mato/starry-digitizer.git#vue3/add_library_props":
   version "0.16.1"
-  resolved "git+https://github.com/t29mato/starry-digitizer.git#070c001755aa808f4da48f30f4905784b463c0d9"
+  resolved "git+https://github.com/t29mato/starry-digitizer.git#81950e07d9332a9d5beaa52d0c38063df524ddda"
   dependencies:
     "@handsontable/vue3" "^13.1.0"
     "@mdi/font" "^7.2.96"
