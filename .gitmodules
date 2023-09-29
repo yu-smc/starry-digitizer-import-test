@@ -1,0 +1,7 @@
+[submodule "starry-digitizer"]
+	path = starry-digitizer
+	url = https://github.com/t29mato/starry-digitizer
+[submodule "digitizer"]
+	path = digitizer
+	url = https://github.com/t29mato/starry-digitizer
+	branch = feature/vue3
