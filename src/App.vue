@@ -26,6 +26,10 @@ const plotData = ref({
     }
   ]
 })
+
+const digitizerOptions = ref({
+  isDatasetNameEditable: false
+})
 </script>
 
 <template>
@@ -49,7 +53,7 @@ const plotData = ref({
           + Add Target Sample
         </div>
       </div>
-      <StarryDigitizer :initialGraphImagePath="'/graph.png'" :initialData="plotData"/>
+      <StarryDigitizer :initialGraphImagePath="'/graph.png'" :initialData="plotData" :options="digitizerOptions" />
     </div>
 
   </div>
